@@ -1,0 +1,9 @@
+use_frameworks!
+target 'cocoapod_idnowsdk_test_Tests' do
+  pod 'cocoapod_idnowsdk_test', :path => '../'
+  
+  pod 'Quick', '~> 1.2.0'
+  pod 'Nimble', '~> 7.0'
+  pod 'AFNetworking', '~> 2.3'
+  pod 'IDnowSDK', '~> 4.1.0'
+end
